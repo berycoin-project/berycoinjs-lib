@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var berycoinjs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(berycoinjs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+berycoinjs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = berycoinjs

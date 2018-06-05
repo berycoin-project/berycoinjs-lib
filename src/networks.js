@@ -1,5 +1,5 @@
 module.exports = {
-    qtum: {
+    berycoin: {
         messagePrefix: '\x15Berycoin Signed Message:\n',
         bech32: 'bc',
         bip32: {
@@ -10,7 +10,7 @@ module.exports = {
         scriptHash: 0x32,
         wif: 0x80
     },
-    qtum_testnet: {
+    berycoin_testnet: {
         messagePrefix: '\x15Berycoin Signed Message:\n',
         bech32: 'tb',
         bip32: {
